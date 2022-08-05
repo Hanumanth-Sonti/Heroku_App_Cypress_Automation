@@ -1,0 +1,20 @@
+{
+  "name": "heroku_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "headtest": "npm run test -- --headed",
+    "firefoxtest": "npm run test -- --browser firefox --headed"
+  },
+ 
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mochawesome": "^7.1.3"
+  }
+}
