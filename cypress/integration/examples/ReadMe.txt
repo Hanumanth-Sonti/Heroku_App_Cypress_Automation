@@ -6,7 +6,7 @@ Expected Result: Check Month name when clicked matched with the Sales by Month
 
 Actual Result: Same as expected
 
-Test Case 2:
+Test Case 2: Verify Number of Shoe Prices matched between Product and Test Data
 Status : Pass
 Steps :
  1. Select Shoes by Month( Reuse the code from test case 1)
